@@ -9,7 +9,7 @@ const app = express()
 require('dotenv').config()
 
 
-app.use(cors({origin: [process.env.CORS]}))
+app.use(cors())
 app.use(express.json())
 
 app.use('/api/products', productRoutes)
