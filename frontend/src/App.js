@@ -17,7 +17,7 @@ import AuthProvider from './store/AuthProvider';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route basename="/" path='/' element={<RootLayout/>}>
+    <Route path='/' element={<RootLayout/>}>
         <Route index element={<Home/>}/>
         <Route path='signup' element={<Signup/>}/>
         <Route path='login' element={<Login/>}/>
@@ -25,7 +25,10 @@ const router = createBrowserRouter(
         <Route path='profile' element={<Profile/>}/>
         <Route path=':id' element={<ProductDetails/>}/>
     </Route>
-  )
+  ),
+  {
+    basename:'/'
+  }
 );
 
 function App() {
