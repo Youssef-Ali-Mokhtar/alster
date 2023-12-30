@@ -73,7 +73,7 @@ const ProductDetails = () => {
             })
             .then((data)=>{
                 console.log(data);
-                navigate('/');
+                navigate('/alster');
             })
             .catch((error)=>{
                 console.log(error);
