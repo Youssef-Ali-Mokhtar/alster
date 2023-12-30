@@ -27,7 +27,7 @@ const router = createBrowserRouter(
     </Route>
   ),
   {
-    basename:'/alster'
+    basename:'/'
   }
 );
 
