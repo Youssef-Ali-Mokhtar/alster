@@ -10,7 +10,7 @@ const ProductsList = ({data}) => {
     return ( <div>
         {
             data.map(item=>{
-                return <Link 
+                return <Link
                     className={ctxThemeSwitch.theme==='dark'?Page['dark']:''}
                     key={item._id}
                     to={item._id}>

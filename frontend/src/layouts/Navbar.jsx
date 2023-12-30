@@ -34,7 +34,7 @@ const Navbar = () => {
                 Profile
             </NavLink>
             <NavLink
-            to="post"
+            to="/post"
             style={({ isActive }) => {
                 return isActive ? { color: "gold", fontWeight:'bold' } : {};
             }}
@@ -47,7 +47,7 @@ const Navbar = () => {
         {!authCtx.state.user &&
             <>
                 <NavLink
-                    to="signup"
+                    to="/signup"
                     style={({ isActive }) => {
                         return isActive ? { color: "gold", fontWeight:'bold' } : {};
                     }}
@@ -55,7 +55,7 @@ const Navbar = () => {
                     Signup
                 </NavLink>
                 <NavLink
-                    to="login"
+                    to="/login"
                     style={({ isActive }) => {
                         return isActive ? { color: "gold", fontWeight:'bold' } : {};
                     }}
