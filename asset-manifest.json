@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/alster/static/css/main.294003ee.css",
-    "main.js": "/alster/static/js/main.3f2c6f66.js",
+    "main.js": "/alster/static/js/main.c3085a01.js",
     "index.html": "/alster/index.html",
     "main.294003ee.css.map": "/alster/static/css/main.294003ee.css.map",
-    "main.3f2c6f66.js.map": "/alster/static/js/main.3f2c6f66.js.map"
+    "main.c3085a01.js.map": "/alster/static/js/main.c3085a01.js.map"
   },
   "entrypoints": [
     "static/css/main.294003ee.css",
-    "static/js/main.3f2c6f66.js"
+    "static/js/main.c3085a01.js"
   ]
 }

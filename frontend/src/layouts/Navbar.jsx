@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     return ( <nav className={`${navbarClasses['navbar']} ${ctxThemeSwitch.theme==='dark'?navbarClasses['dark']:''}`}>
         <NavLink
-            to="/"
+            to="/alster"
             style={({ isActive }) => {
                 return isActive ? { color: "gold", fontWeight:'bold' } : {}
             }}
@@ -26,7 +26,7 @@ const Navbar = () => {
         {authCtx.state.user &&
         <>
             <NavLink
-                to="/profile"
+                to="/alster/profile"
                 style={({ isActive }) => {
                     return isActive ? { color: "gold", fontWeight:'bold' } : {}
                 }}
@@ -34,7 +34,7 @@ const Navbar = () => {
                 Profile
             </NavLink>
             <NavLink
-            to="/post"
+            to="/alster/post"
             style={({ isActive }) => {
                 return isActive ? { color: "gold", fontWeight:'bold' } : {};
             }}
@@ -47,7 +47,7 @@ const Navbar = () => {
         {!authCtx.state.user &&
             <>
                 <NavLink
-                    to="/signup"
+                    to="/alster/signup"
                     style={({ isActive }) => {
                         return isActive ? { color: "gold", fontWeight:'bold' } : {};
                     }}
@@ -55,7 +55,7 @@ const Navbar = () => {
                     Signup
                 </NavLink>
                 <NavLink
-                    to="/login"
+                    to="/alster/login"
                     style={({ isActive }) => {
                         return isActive ? { color: "gold", fontWeight:'bold' } : {};
                     }}
