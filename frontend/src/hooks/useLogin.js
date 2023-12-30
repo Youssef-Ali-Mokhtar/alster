@@ -31,7 +31,7 @@ const useLogin = ()=> {
             authCtx.login(json)
             setIsLoading(false)
             setError(null)
-            navigate('/')
+            navigate('/alster')
         }
 
     }

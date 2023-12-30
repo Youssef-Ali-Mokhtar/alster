@@ -8,7 +8,7 @@ const useLogout = ()=> {
         //remove user from storage
         localStorage.removeItem('user')
         authCtx.logout()
-        navigate('/login')
+        navigate('/alster/login')
     }
 
     return { logout }

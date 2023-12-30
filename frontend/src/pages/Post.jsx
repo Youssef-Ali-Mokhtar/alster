@@ -45,7 +45,7 @@ const Post = () => {
           .then((responseData) => {
             // Handle the data returned from the server
             console.log(responseData)
-            navigate('/')
+            navigate('/alster')
           })
           .catch((error) => {
             // Handle errors during the fetch

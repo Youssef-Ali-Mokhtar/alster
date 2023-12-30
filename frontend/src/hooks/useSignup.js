@@ -30,7 +30,7 @@ const useSignup = ()=> {
             authCtx.login(json)
             setIsLoading(false)
             setError(null)
-            navigate('/')
+            navigate('/alster')
         }
 
     }
