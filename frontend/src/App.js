@@ -25,10 +25,7 @@ const router = createBrowserRouter(
         <Route path='profile' element={<Profile/>}/>
         <Route path=':id' element={<ProductDetails/>}/>
     </Route>
-  ),
-  {
-    basename:'/'
-  }
+  )
 );
 
 function App() {
